@@ -12,7 +12,7 @@ const Bills = () => {
 
   const userName = useSelector((state) => state.userName);
 
-  console.log(userBills);
+  //console.log(userBills);
 
   const getUserBills = useCallback(() => {
     axios
