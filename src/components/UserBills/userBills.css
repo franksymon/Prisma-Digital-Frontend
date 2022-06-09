@@ -1,0 +1,42 @@
+.bills{
+    width: 350px;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+h3{
+    margin-bottom: 20px;
+    color: rgb(10, 10, 85);
+}
+
+.wrapper-bill{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.bills-containe{
+    max-height:60vh ;
+    overflow-y: auto;
+}
+
+.btn-bills{
+    border: none;
+    width: 300px;
+    cursor: pointer;
+    background-color: white;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, .3);
+    margin-bottom: 5px;
+    padding-top: 10px;
+   padding-left: 10px;
+   padding-right: 10px;
+}
+
+.btn-bills:hover{
+    background-color: rgb(226, 226, 226);
+}
+
+.btn-bills-open-modal{
+    background-color: transparent;
+    border: none;
+}

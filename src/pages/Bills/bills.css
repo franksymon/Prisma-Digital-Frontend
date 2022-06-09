@@ -1,0 +1,20 @@
+.bt-modal{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    color: white;
+    background-color: rgba(7, 7, 99, 0.87);
+    border: 2px solid rgb(21, 157, 236);
+    font-size: 17px;
+    margin-left: 312px;
+    margin-top: 10px;
+}
+
+.bt-modal:hover{
+    background-color:rgb(21, 157, 236);
+    color:rgba(7, 7, 99, 0.87) ;
+}
+
+
+

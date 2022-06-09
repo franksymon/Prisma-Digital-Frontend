@@ -1,0 +1,84 @@
+.register{
+    width: 300px;
+    padding: 20px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, .3);
+    background-color: white;
+}
+
+.modal-register{
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgba(0, 0, 0, 0.75);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h4{
+    margin-bottom: 15px;
+}
+
+.date-bills{
+    margin-bottom: 10px;
+}
+
+.input-container-register{
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}   
+
+.input-container-register label{
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+#observation{
+    height: 60px;
+    resize: none;
+    outline: none;
+}
+
+#value{
+    height: 30px;
+    outline: none;
+}
+
+.input-radio-register{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    gap: 10px;
+}
+
+.input-radio-register label{
+    font-weight: normal;
+    font-size: 14px;
+}
+
+.button-register{
+    display: flex;
+    justify-content: space-between;
+}
+
+.register button{
+    margin-top: 10px;
+    cursor: pointer;
+    border: none;
+    width: 70px;
+    padding: 5px 10px;
+}
+
+.btn-register{    
+    background-color: rgba(7, 7, 99, 0.87);
+    color: white;
+}
+
+.btn-register:hover{
+    background-color:rgb(21, 157, 236);
+    color:rgba(7, 7, 99, 0.87) ;
+}
